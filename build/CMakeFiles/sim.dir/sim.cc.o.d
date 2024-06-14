@@ -638,7 +638,7 @@ CMakeFiles/sim.dir/sim.cc.o: /home/guy/geant4-radioactive-decay/sim.cc \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4UIsession.hh \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4coutDestination.hh \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4UIbatch.hh \
- /home/guy/geant4-radioactive-decay/construction.hh \
+ /home/guy/geant4-radioactive-decay/include/construction.hh \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4SystemOfUnits.hh \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4VUserDetectorConstruction.hh \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4VPhysicalVolume.hh \
@@ -651,14 +651,14 @@ CMakeFiles/sim.dir/sim.cc.o: /home/guy/geant4-radioactive-decay/sim.cc \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4NistMaterialBuilder.hh \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4Pow.hh \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4Exp.hh \
- /home/guy/geant4-radioactive-decay/detector.hh \
+ /home/guy/geant4-radioactive-decay/include/detector.hh \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4VSensitiveDetector.hh \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4CollectionNameVector.hh \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4VReadOutGeometry.hh \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4SensitiveVolumeList.hh \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4VSDFilter.hh \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/globals.hh \
- /home/guy/geant4-radioactive-decay/physics.hh \
+ /home/guy/geant4-radioactive-decay/include/physics.hh \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4VModularPhysicsList.hh \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4VPhysicsConstructor.hh \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4PhysicsListHelper.hh \
@@ -904,9 +904,9 @@ CMakeFiles/sim.dir/sim.cc.o: /home/guy/geant4-radioactive-decay/sim.cc \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4NeutronGeneralProcess.hh \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4HadDataHandler.hh \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4EmBuilder.hh \
- /home/guy/geant4-radioactive-decay/action.hh \
+ /home/guy/geant4-radioactive-decay/include/action.hh \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4VUserActionInitialization.hh \
- /home/guy/geant4-radioactive-decay/generator.hh \
+ /home/guy/geant4-radioactive-decay/include/generator.hh \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4VUserPrimaryGeneratorAction.hh \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4ParticleGun.hh \
  /home/guy/software/geant4/geant4-v11.2.1-ST-install/include/Geant4/G4VPrimaryGenerator.hh \
