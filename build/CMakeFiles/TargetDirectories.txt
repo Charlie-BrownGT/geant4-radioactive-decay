@@ -1,0 +1,4 @@
+/home/guy/geant4-radioactive-decay/build/CMakeFiles/sim.dir
+/home/guy/geant4-radioactive-decay/build/CMakeFiles/Simulation.dir
+/home/guy/geant4-radioactive-decay/build/CMakeFiles/edit_cache.dir
+/home/guy/geant4-radioactive-decay/build/CMakeFiles/rebuild_cache.dir
