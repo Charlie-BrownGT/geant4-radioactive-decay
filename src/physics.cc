@@ -20,9 +20,6 @@ MyPhysicsList::MyPhysicsList()
 	deex->SetMaxLifeTime(meanLife);
 	
 	SetDefaultCutValue(1*mm);
-	
-	RegisterPhysics (new G4EmStandardPhysics());
-	RegisterPhysics (new G4OpticalPhysics());
 }
 
 MyPhysicsList::~MyPhysicsList()
