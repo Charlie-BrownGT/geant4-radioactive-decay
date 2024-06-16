@@ -19,7 +19,6 @@ int main(int argc, char** argv)
 	runManager->SetUserInitialization(new MyDetectorConstruction());
 	runManager->SetUserInitialization(new MyPhysicsList());
 	runManager->SetUserInitialization(new MyActionInitialization());
-	
 	runManager->Initialize();
 	
 	G4UImanager *UImanager = G4UImanager::GetUIpointer();
@@ -27,7 +26,6 @@ int main(int argc, char** argv)
 	
 	G4VisManager *visManager = new G4VisExecutive();
 	visManager->Initialize();
-	
 	
 	UImanager->ApplyCommand("/vis/open OGL");
 	UImanager->ApplyCommand("/vis/drawVolume");

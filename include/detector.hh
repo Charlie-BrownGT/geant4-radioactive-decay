@@ -3,7 +3,6 @@
 
 #include "G4VSensitiveDetector.hh"
 #include "globals.hh"
-
 #include "G4AnalysisManager.hh"
 #include "G4RunManager.hh"
 

@@ -12,10 +12,12 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
 	
 	G4Material *worldMat = nist->FindOrBuildMaterial("G4_AIR");
 	
+	//World volume
 	G4Box *solidWorld = new G4Box("solidWorld", 0.5*m, 0.5*m, 0.5*m);
 	G4LogicalVolume *logicWorld = new G4LogicalVolume(solidWorld, worldMat, "logicWorld");
 	G4VPhysicalVolume *physWorld = new G4PVPlacement(0, G4ThreeVector(), logicWorld, "physWorld", 0, false, 0);
 	
+	//Detector volume
 	G4Box *solidDetector = new G4Box("solidDetector", 0.005*m, 0.005*m, 0.01*m);
 	logicDetector = new G4LogicalVolume(solidDetector, worldMat, "logicDetector");
 	for(G4int i = 0; i < 100; i++)
@@ -31,7 +33,7 @@ G4VPhysicalVolume *MyDetectorConstruction::Construct()
 
 void MyDetectorConstruction::ConstructSDandField()
 {
+	//Detector definition
 	MySensitiveDetector *sensDet = new MySensitiveDetector("Sensitive Detector");
-	
 	logicDetector->SetSensitiveDetector(sensDet);
 }
