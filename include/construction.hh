@@ -21,5 +21,6 @@ public:
 	
 private:
 	G4LogicalVolume *logicDetector;
+	virtual void ConstructSDandField();
 };
 #endif
