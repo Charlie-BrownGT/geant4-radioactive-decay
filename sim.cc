@@ -16,20 +16,37 @@
 int main(int argc, char** argv)
 {
 	G4RunManager *runManager = new G4RunManager();
+	
 	runManager->SetUserInitialization(new MyDetectorConstruction());
 	runManager->SetUserInitialization(new MyPhysicsList());
 	runManager->SetUserInitialization(new MyActionInitialization());
 	runManager->Initialize();
 	
-	G4UImanager *UImanager = G4UImanager::GetUIpointer();
-	G4UIExecutive *ui = new G4UIExecutive(argc, argv);
+	
+	
+	G4UIExecutive *ui = 0;
+	
+	if(argc == 1)
+	{
+		ui = new G4UIExecutive(argc, argv);
+	}
 	
 	G4VisManager *visManager = new G4VisExecutive();
 	visManager->Initialize();
 	
-	UImanager->ApplyCommand("/control/execute visualization.mac");
+	G4UImanager *UImanager = G4UImanager::GetUIpointer();
 	
-	ui->SessionStart();
+	if(ui)
+	{	
+		UImanager->ApplyCommand("/control/execute visualization.mac");
+		ui->SessionStart();
+	}
+	else 
+	{
+		G4String command = "/control/execute ";
+		G4String fileName = argv[1];
+		UImanager->ApplyCommand(command+fileName);
+	}
 	
 	delete ui;
 	delete runManager;
