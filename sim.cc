@@ -27,12 +27,7 @@ int main(int argc, char** argv)
 	G4VisManager *visManager = new G4VisExecutive();
 	visManager->Initialize();
 	
-	UImanager->ApplyCommand("/vis/open OGL");
-	UImanager->ApplyCommand("/vis/drawVolume");
-	UImanager->ApplyCommand("/vis/viewer/set/viewpointVector 1 1 1");
-	UImanager->ApplyCommand("/vis/viewer/set/autoRefresh true");
-	UImanager->ApplyCommand("/vis/scene/add/trajectories smooth");
-	UImanager->ApplyCommand("/vis/scene/endOfEventAction accumulate");
+	UImanager->ApplyCommand("/control/execute visualization.mac");
 	
 	ui->SessionStart();
 	

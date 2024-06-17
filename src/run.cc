@@ -10,7 +10,7 @@ void MyRunAction::BeginOfRunAction(const G4Run*)
 {
 	G4AnalysisManager *man = G4AnalysisManager::Instance();
 	
-	man->OpenFile("output.root");
+	man->OpenFile("position.root");
 	man->CreateNtuple("Position", "Position");
 	man->CreateNtupleIColumn("Event");
 	man->CreateNtupleDColumn("X");
