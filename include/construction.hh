@@ -20,7 +20,10 @@ public:
 	virtual G4VPhysicalVolume *Construct();
 	
 private:
-	G4LogicalVolume *logicDetector;
+	G4LogicalVolume *logicDetector1;
+	G4LogicalVolume *logicDetector2;
+	G4LogicalVolume *logicDetector3;
+	
 	virtual void ConstructSDandField();
 };
 #endif

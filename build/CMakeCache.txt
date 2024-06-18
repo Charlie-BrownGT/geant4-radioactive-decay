@@ -518,15 +518,6 @@ X11_xkbfile_INCLUDE_PATH:PATH=X11_xkbfile_INCLUDE_PATH-NOTFOUND
 //Path to a library.
 X11_xkbfile_LIB:FILEPATH=X11_xkbfile_LIB-NOTFOUND
 
-//Value Computed by CMake
-cherenkov-detector_BINARY_DIR:STATIC=/home/guy/geant4-radioactive-decay/build
-
-//Value Computed by CMake
-cherenkov-detector_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-cherenkov-detector_SOURCE_DIR:STATIC=/home/guy/geant4-radioactive-decay
-
 //Path to a library.
 pkgcfg_lib_PC_EXPAT_expat:FILEPATH=/usr/lib/x86_64-linux-gnu/libexpat.so
 
@@ -547,15 +538,6 @@ radioactive-decay-dev_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 radioactive-decay-dev_SOURCE_DIR:STATIC=/home/guy/geant4-radioactive-decay
-
-//Value Computed by CMake
-radioactive-decay_BINARY_DIR:STATIC=/home/guy/geant4-radioactive-decay/build
-
-//Value Computed by CMake
-radioactive-decay_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-radioactive-decay_SOURCE_DIR:STATIC=/home/guy/geant4-radioactive-decay
 
 
 ########################
